@@ -1,0 +1,75 @@
+{
+  "name": "dx-front",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fullcalendar/core": "^4.3.1",
+    "@fullcalendar/daygrid": "^4.3.0",
+    "@fullcalendar/interaction": "^4.3.0",
+    "@fullcalendar/react": "^4.3.0",
+    "@fullcalendar/timegrid": "^4.3.0",
+    "animejs": "^3.1.0",
+    "axios": "^0.19.0",
+    "classnames": "^2.2.6",
+    "feather-icons": "^4.24.1",
+    "history": "^4.9.0",
+    "js-cookie": "^2.2.1",
+    "lodash": "^4.17.15",
+    "mobx": "^5.13.0",
+    "mobx-react-lite": "^1.4.1",
+    "mobx-react-router": "^4.0.7",
+    "moment": "^2.24.0",
+    "node-sass": "^4.12.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-big-calendar": "^0.22.0",
+    "react-countup": "^4.2.2",
+    "react-dnd": "^9.3.4",
+    "react-dnd-html5-backend": "^9.3.4",
+    "react-dom": "^16.9.0",
+    "react-feather": "^2.0.3",
+    "react-google-login": "^5.0.5",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.1.1",
+    "react-spinners": "^0.5.12",
+    "react-spring": "^8.0.27",
+    "shortid": "^2.2.15"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-decorators": "^7.6.0",
+    "@babel/plugin-proposal-optional-chaining": "^7.6.0",
+    "@craco/craco": "^5.3.0",
+    "dotenv": "^8.1.0",
+    "dotenv-cli": "^2.0.1",
+    "eslint": "6",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.2.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "husky": "^3.0.5",
+    "lint-staged": "^9.2.5",
+    "prettier": "^1.18.2"
+  }
+}

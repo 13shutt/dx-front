@@ -1,0 +1,86 @@
+@import "../../../styles/variables";
+
+footer.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 44px;
+  flex-wrap: wrap;
+  box-shadow: 8px 0 16px 0 rgba(0, 0, 0, 0.06);
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  @media (max-width: $screen-sm-max) {
+    position: relative;
+    padding: 0 14px;
+  }
+  @media (max-width: $screen-sm-max) {
+    padding: 10px 14px;
+    flex-direction: column;
+  }
+  .footerWrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    @media (max-width: $screen-sm-max) {
+      padding: 0;
+      flex-direction: column;
+    }
+  }
+  .right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    @media (max-width: $screen-sm-max) {
+      flex-direction: column;
+    }
+
+  }
+  .left {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    @media (max-width: $screen-sm-min) {
+      justify-content: center;
+      align-self: flex-start;
+      flex: 1;
+    }
+    .logo {
+      width: 70px;
+      height: 70px;
+      margin-right: 44px;
+      @media (max-width: $screen-lg-min) {
+        width: 50px;
+        height: 50px;
+        margin: 0 auto;
+      }
+    }
+  }
+  .subMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .subMenuItem {
+    padding: 10px;
+    margin-right: 15px;
+    //color: $main-gold;
+    font-weight: 600;
+    font-size: 16px;
+    @media (max-width: $screen-sm-max) {
+      font-size: 12px;
+      padding: 10px 5px;
+      margin-right: 5px;
+    }
+  }
+  .copyright {
+    color: #979797;
+    @media (max-width: $screen-sm-min) {
+      text-align: center;
+      font-size: 12px;
+    }
+  }
+}

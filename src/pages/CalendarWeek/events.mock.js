@@ -1,0 +1,42 @@
+export default[
+  {
+    'title': 'Example event 1',
+    'className': 'myEvent',
+    'recurring_event_id': 'i4pe6bhenam9vmetvjc48itaf0',
+    'start': '2019-08-19 06:00:00',
+    'end': '2019-08-19 09:00:00',
+    'backgroundColor': '#a71418',
+  },
+  {
+    'title': 'Short event 1',
+    'className': 'short-1',
+    'recurring_event_id': 'i4pe6bhenam9vmetvjc48itaf0',
+    'start': '2019-08-20 06:00:00',
+    'end': '2019-08-20 07:00:00',
+    'backgroundColor': '#333ca7',
+  },
+  {
+    'title': 'Short event 2',
+    'className': 'short-2',
+    'recurring_event_id': 'i4pe6bhenam9vmetvjc48itaf0',
+    'start': '2019-08-20 08:00:00',
+    'end': '2019-08-20 09:00:00',
+    'backgroundColor': '#333ca7',
+  },
+  {
+    'title': 'Short event 2',
+    'className': 'short-3',
+    'recurring_event_id': 'i4pe6bhenam9vmetvjc48itaf0',
+    'start': '2019-08-20 11:00:00',
+    'end': '2019-08-20 12:00:00',
+    'backgroundColor': '#333ca7',
+  },
+  {
+    'title': 'Event 3',
+    'className': 'long-4',
+    'recurring_event_id': 'i4pe6bhenam9vmetvjc48itaf0',
+    'start': '2019-08-21 11:00:00',
+    'end': '2019-08-21 19:00:00',
+    'backgroundColor': '#333ca7',
+  },
+]

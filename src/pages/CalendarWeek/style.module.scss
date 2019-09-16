@@ -1,0 +1,69 @@
+@import '../../styles/variables';
+
+.calendarWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.calendarBox {
+  display: flex;
+  justify-content: center;
+}
+.calendar {
+  background: #F5F4F8;
+  overflow-y: auto;
+  height: 750px;
+  width: 80%;
+
+}
+
+
+.toolsPanel {
+  height: 60px;
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+.sidebar {
+  width: 320px;
+  margin-right: 28px;
+}
+
+.main {
+  flex-grow: 1;
+  margin-bottom: 80px;
+}
+
+.caption {
+  color: #292929;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  height: 112px;
+}
+
+.profile {
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+  width: 320px;
+  height: 400px;
+}
+
+.followers {
+  margin-bottom: 32px;
+}
+
+
+.middleWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  width: 100%;
+  flex: 1;
+}
